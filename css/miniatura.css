@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+
+
+}
+body {
+    background-image: url(images/fondo\ 2.png);
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+	--rojo: #000000;
+	--fondo: #f1e2bc;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #000000;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+
+.pelicula-principal {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(35, 43, 85, 0.5) 0%, rgba(61, 62, 112, 0.5) 100%), url(../img/backdrop.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.navbar{
+    background-color: rgb(98, 29, 125);
+    font-family: 'HBO Max', sans-serif;
+   font-size: 20px;                                         
+    padding-left: 8rem;
+    
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 35px;
+}
+
+.nav-link{
+    color: rgb(0, 128, 255);
+    
+}
+
+.nav-active{
+    color: rgb(0, 128, 255);
+   
+}
+
+.menu{
+    background-color: blue;
+    height: 5rem;
+}
+
+.slider{
+    background-color: black;
+    height: 30rem;
+    
+}
+
+
+.card{
+    background-color: rgba(147, 148, 148, 0.495);
+    padding: 0,2%;
+    margin: 1%;
+    width: 35rem;
+    color: white;
+       
+
+}
+.carrusel{
+
+    padding: 2rem;
+    
+}
+
+.filas{
+    padding-left: 8%;
+    width: 100%;
+    padding-right: 7%;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+    font-family: 'HBO Max', sans-serif;
+  
+}
+
+.filas{
+    color: white;
+    margin: 2%;
+  
+                                                
+}
+
+.footer{
+ padding-right: 20%;
+ padding-left: 25%;
+color: white;
+font-size: 25px;
+align-items: center;
+justify-content: center;
+ align-content: center;
+
+}
+
+.btn{
+    background-color: rgba(75, 19, 243, 0.249);
+}
+
+.card-title{
+    font-size: 30px
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/hbo-max-2?styles=148344');
